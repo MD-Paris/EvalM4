@@ -1725,6 +1725,7 @@ div.tocify {
 <p><span class="math display">\[Profondeur\ théorique = \frac{nb\ reads\ R1\ *longueur\ moyenne\ R1+nb\ reads\ R2 * longueur\ moyenne\ R2 }
   {taille\ du\ génome} \]</span> <span class="math display">\[  = \frac{ 2*7,066,055*150} 
   {4,215,606} =  502 X\]</span></p>
+<p>La profondeur semble correcte, mais dépendra des analyses que nous souhaiterons réaliser ultérieurement.</p>
 </div>
 </div>
 <div id="nettoyage-des-reads" class="section level1">
@@ -1753,6 +1754,7 @@ div.tocify {
 <li><p>4,076 (&lt; 0.1%) reads ont été filtrés en raison d’un trop grand nombre de base incertaine (N),</p></li>
 <li><p>36,850 (0.3%) reads ont été filtrés en raison d’une taille insuffisante.</p></li>
 </ul>
+<p>Comme attendu, peu de reads ont été exclus car le séquençage était de qualité suffisante.</p>
 </div>
 </div>
 <div id="alignement-des-reads-contre-le-génome-de-référence." class="section level1">
@@ -1799,7 +1801,7 @@ div.tocify {
 <p>40024 + 0 singletons (0.29% : N/A)</p>
 <p>0 + 0 with mate mapped to a different chr</p>
 <p>0 + 0 with mate mapped to a different chr (mapQ&gt;=5)</p>
-<p>On peut en déduire que 12932150 reads ont été correctement mappés avec son mate, soit 94.1%.</p>
+<p>On peut en déduire que 12932150 reads ont été correctement mappés avec son mate, soit 94.1%, ce qui est très satisfaisant.</p>
 </div>
 </div>
 <div id="extraction-des-reads-chevauchant-au-moins-50-le-gène-trmnf." class="section level1">
